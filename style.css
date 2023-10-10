@@ -27,6 +27,7 @@
 .top button {
     background-color: hsl(45.1deg 100% 70%);
     width: 60px;
+    height: 30px;
     border-radius: 3px;
     box-shadow: 4px 1px 1px black;
 }
@@ -34,4 +35,59 @@
 .top p {
     position: relative;
     left: 50px;
+}
+
+.container {
+    margin: auto;
+    width: 60%;
+}
+
+.top-bar {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.main {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+#main-title {
+    text-align: center;
+    padding: 20px;
+}
+
+.main button {
+    background-color: hsl(45.1deg 100% 70%);
+    width: 60px;
+    height: 30px;
+    border-radius: 3px;
+    box-shadow: 4px 1px 1px black;
+}
+
+.col-left {
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 20px;
+
+    /* margin: 20px; */
+    /* flex: 1; */
+    /* text-align: center; */
+}
+
+.col-right {
+    /* flex: 4; */
+    width: 70%;
+}
+
+.user-card1,
+.user-card2,
+.user-card3 {
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 20px;
+    height: 80px;
+    margin-bottom: 10px;
 }
