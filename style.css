@@ -1,0 +1,37 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Gabarito', sans-serif;
+    font-family: 'Martian Mono', monospace;
+    font-family: 'Mooli', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.user-card {
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 4px;
+    position: relative;
+    left: 200px;
+    top: 50px;
+    padding: 20px;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.top button {
+    background-color: hsl(45.1deg 100% 70%);
+    width: 60px;
+    border-radius: 3px;
+    box-shadow: 4px 1px 1px black;
+}
+
+.top p {
+    position: relative;
+    left: 50px;
+}
